@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    background-color: green;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    flex: 8;
+}
+.formbox h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.formbox{
+     width: 500px;
+     background: gray;
+     margin: auto;
+     padding: 10px;
+     border-radius: 10px;
+}
+
+.formbox input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.formbox button{
+    padding: 10px 35px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
